@@ -1,0 +1,62 @@
+  html{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+  
+  th {
+    background-color: rgb(235,235,235);
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #6CF08F;
+  }
+
+  tr:nth-child(odd) td {
+    background-color: #A1D9E6;
+  }
+
+  
+  caption {
+    background-color: #D3D3D3;
+    font-style: bold;
+  }
+
+  thead  th {
+background-color: white;
+  }
+  
+  tfoot th{
+    background-color: white;
+  }
+
+  caption{
+    padding: 10px;
+  }
+
+  tr > th{
+    background-color: white;
+  }
+
+  tbody th{
+    background-color: #D3D3D3;
+  }
+
+  th :scope{
+    background-color: white;
+  }
+      
