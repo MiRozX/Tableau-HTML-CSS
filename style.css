@@ -1,12 +1,9 @@
-  html{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
+
 
   table {
     border-collapse: collapse;
     border: 2px solid rgb(200,200,200);
     letter-spacing: 1px;
-    font-size: 0.8rem;
   }
   
   td, th {
@@ -33,7 +30,8 @@
   
   caption {
     background-color: #D3D3D3;
-    font-style: bold;
+    padding: 10px;
+    font-weight: bold;
   }
 
   thead  th {
@@ -42,11 +40,10 @@ background-color: white;
   
   tfoot th{
     background-color: white;
+    font-weight: normal;
+    font-style: italic;
   }
 
-  caption{
-    padding: 10px;
-  }
 
   tr > th{
     background-color: white;
@@ -54,6 +51,7 @@ background-color: white;
 
   tbody th{
     background-color: #D3D3D3;
+    font-weight: normal;
   }
 
   th :scope{
